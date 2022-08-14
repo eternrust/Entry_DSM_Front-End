@@ -1,0 +1,61 @@
+.Posts {
+    position: absolute;
+    width: 800px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+    left: calc(50% - 400px);
+    top: calc(50% - 225px);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.Posts tbody td{
+    height: 350px;
+    padding: 30px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.Posts thead td{
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+    height: 45px;
+    border-bottom: 1px solid #CCC;
+}
+
+.Posts thead td:first-child{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.Posts thead td:last-child{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.Post_Btn_Box {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    position: absolute;
+    left: 60%;
+    top: 87%;
+}
+
+.Post_Btn_Box button {
+    width: 110px;
+    height: 40px;
+    border-radius: 100px;
+    background: #5F85BB;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

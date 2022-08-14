@@ -1,0 +1,49 @@
+.header {
+    width: 100vw;
+    height: 50px;
+    background-color: #5F85BB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header * {
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.logo_icon {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+.login_box {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    justify-content: space-around;
+}
+
+.login_line {
+    width: 1px;
+    height: 26.67px;
+    background-color: #fff;
+    margin: 0 12px 0 12px;
+}
+

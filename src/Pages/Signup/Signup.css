@@ -1,0 +1,81 @@
+.Signup_Box {
+    width: 360px;
+    height: 460px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 220px);
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.Signup_Title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.Signup_Small_Title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.Signup_Box input {
+    outline: none;
+}
+
+.password_Box, .Signup_id, .Signup_name {
+    width: 350px;
+    height: 34px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Signup_password, .Signup_re_password {
+    height: 30px;
+    width: 320px;
+    border: none;
+}
+
+.Signup_Box svg {
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.Signup_id_save_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid gray;
+    color: #5F85BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Signup_btn {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    background-color: #E0E0E0;
+}
